@@ -1,19 +1,11 @@
 html {
+  margin: auto;
   font-family: Georgia, serif;
   font-size: 1.125em;
   line-height: 1.333em;
 }
 
 /* Amairani Lopez - Personal Code */
- form{
-  text-align: center;
-  font: 1em Georgia, "Times New Roman", Times, serif;
-  width: 180px;
-  padding-left: 60px;
-  padding-right: 60px;
-  line-height: 1.8;
-}
-
 body {
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -25,16 +17,74 @@ body {
   margin-top: 30px;
 }
 
+#header{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+ form{
+  text-align: center;
+  font: 1em Georgia, "Times New Roman", Times, serif;
+  padding-right: 30px;
+  padding-left: 30px;
+  line-height: 1.8;
+  text-align: center;
+}
+
 fieldset{
   display: block;
   text-align: center;
-  border: 30px groove;
-  border-color: #83DAFC;
+  border: 10px groove;
+  border-color: #DCB3F7;
   font: 1em Georgia, "Times New Roman", Times, serif;
-  background-color: #B5EDFF;
+  background: url(../media/space.jpg);
   opacity: .9;
-  width: 100px;
+  width: 20%;
   margin: auto;
   line-height: 1.8;
+}
+
+legend{
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 40px;
+  color: white;
+  margin: auto;
+}
+
+label{
+  text-align: center;
+  font: 1em Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #4E50F2;
+  opacity: 1;
+  margin: auto;
+  line-height: 1.8;
+}
+
+input{
+  text-align: center;
+  font-weight: bold;
+  opacity: 1;
+  margin: auto;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+button{
+  text-align: center;
+  border: 10px groove;
+  border-radius: 20px;
+  border-color: #4E50F2;
+  font-weight: bold;
+  opacity: 90%;
+  margin: auto;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #4E50F2;
+  background: url(../media/space.jpg);
 }
 
