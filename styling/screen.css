@@ -6,6 +6,21 @@ html {
 }
 
 /* Amairani Lopez - Personal Code */
+
+#header{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+#header ul li {
+  font-size: 2em; 
+  line-height: 1.5em;
+  list-style-type: none;
+  color: #3561F4; /*bright blue*/  
+}
+
 body {
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -17,11 +32,27 @@ body {
   margin-top: 30px;
 }
 
-#header{
+h2 {
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  color: white;
+  color: white;  
   text-align: center;
+  width: 50%;
   margin: auto;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+p.about {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: white; /*navy blue*/ 
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  border: 5px dashed;
+  border-color: #4E50F2;
+  font: 1em Georgia, "Times New Roman", Times, serif;
+  background-color: #000066;
+  opacity: .9;
 }
 
  form{
@@ -74,17 +105,24 @@ input{
   margin-bottom: 20px;
 }
 
-button{
+.button{
   text-align: center;
   border: 10px groove;
   border-radius: 20px;
   border-color: #4E50F2;
   font-weight: bold;
-  opacity: 90%;
-  margin: auto;
-  line-height: 1.8;
+  opacity: 10%;
+  margin-top: 20px;
   margin-bottom: 20px;
   color: #4E50F2;
   background: url(../media/space.jpg);
+}
+
+#footer ul li {
+  font-size: 1.25em; 
+  line-height: 1.5em;
+  list-style-type: none;
+  color: #3561F4; /*bright blue*/  
+  font: 1em Georgia, "Times New Roman", Times, serif;
 }
 
