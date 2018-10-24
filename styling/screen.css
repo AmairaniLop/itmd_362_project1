@@ -1,8 +1,9 @@
+/*Using 8:9 (1.125) ratio modular scale */
 html {
   margin: auto;
   font-family: Georgia, serif;
   font-size: 1.125em;
-  line-height: 1.333em;
+  line-height: 1.266em;
 }
 
 /* Amairani Lopez - Personal Code */
@@ -15,8 +16,8 @@ html {
 }
 
 #header ul li {
-  font-size: 2em; 
-  line-height: 1.5em;
+  font-size: 2.281em; 
+  line-height: 2.281em;
   list-style-type: none;
   color: #3561F4; /*bright blue*/  
 }
@@ -38,7 +39,7 @@ h2 {
   text-align: center;
   width: 50%;
   margin: auto;
-  font-size: 2em;
+  font-size: 2.027em;
   padding-bottom: 1em;
 }
 
@@ -60,7 +61,7 @@ p.about {
   font: 1em Georgia, "Times New Roman", Times, serif;
   padding-right: 30px;
   padding-left: 30px;
-  line-height: 1.8;
+  line-height: 1.802;
   text-align: center;
 }
 
@@ -74,7 +75,7 @@ fieldset{
   opacity: .9;
   width: 20%;
   margin: auto;
-  line-height: 1.8;
+  line-height: 1.802;
 }
 
 legend{
@@ -93,7 +94,7 @@ label{
   color: #4E50F2;
   opacity: 1;
   margin: auto;
-  line-height: 1.8;
+  line-height: 1.802;
 }
 
 input{
@@ -101,7 +102,7 @@ input{
   font-weight: bold;
   opacity: 1;
   margin: auto;
-  line-height: 1.8;
+  line-height: 1.802;
   margin-bottom: 20px;
 }
 
@@ -118,8 +119,8 @@ input{
 }
 
 #footer ul li {
-  font-size: 1.25em; 
-  line-height: 1.5em;
+  font-size: 1.266em; 
+  line-height: 1.424em;
   list-style-type: none;
   color: #3561F4; /*bright blue*/  
   font: 1em Georgia, "Times New Roman", Times, serif;
