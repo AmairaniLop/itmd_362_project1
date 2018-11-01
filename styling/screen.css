@@ -62,7 +62,7 @@ img{
   margin-bottom: 5px;
   opacity: .8;
   min-width: 200px;
-  }
+}
 
 figcaption {
   width: 70%;
@@ -82,16 +82,16 @@ img.green{
   }
   
 div.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    box-sizing: border-box;	
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  box-sizing: border-box;	
 }
 
 div.row::after {
-    clear: both;
-    display: table;
-    box-sizing: border-box;	
+  clear: both;
+  display: table;
+  box-sizing: border-box;	
 }
 
  form{
