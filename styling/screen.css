@@ -88,7 +88,6 @@ fieldset{
   border: 10px groove;
   border-color: #DCB3F7;
   font: 1em Georgia, "Times New Roman", Times, serif;
-  background: url(../media/space.jpg);
   opacity: .9;
   width: 20%;
   margin: auto;
@@ -108,7 +107,7 @@ label{
   font: 1em Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
   font-weight: bold;
-  color: #4E50F2;
+  color: white;
   opacity: 1;
   margin: auto;
   line-height: 1.802;
@@ -124,14 +123,15 @@ input{
 }
 
 .button{
+  width: 70%;
   text-align: center;
   border: 10px groove;
-  border-radius: 20px;
-  border-color: #4E50F2;
+  border-radius: 10px;
+  border-color: #3561F4;
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #4E50F2;
+  color: white;
   background: url(../media/space.jpg);
 }
 
