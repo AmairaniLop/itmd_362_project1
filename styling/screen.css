@@ -43,7 +43,7 @@ h2 {
   padding-bottom: 1em;
 }
 
-pre.about {
+p.about {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   color: white; /*navy blue*/ 
   text-align: center;
@@ -54,6 +54,7 @@ pre.about {
   font: 1.424em 'Comic Sans MS', cursive, sans-serif;
   background-color: #000066;
   opacity: .9;
+  word-wrap: break-word;
 }
 
 p.note {
