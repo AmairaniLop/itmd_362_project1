@@ -45,7 +45,7 @@ h2 {
 
 p.about {
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  color: white; /*navy blue*/ 
+  color: white;  
   text-align: center;
   width: 70%;
   margin: auto;
@@ -57,14 +57,18 @@ p.about {
   word-wrap: break-word;
 }
 
-p.note {
+img{
+  width: 60%;
+  margin-bottom: 5px;
+  }
+  
+figcaption {
+  width: 70%;
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  color: white; /*navy blue*/ 
+  color: white;  
   text-align: center;
-  width: 95%;
   margin: auto;
   border-color: #4E50F2;
-  font: 1em Georgia, "Times New Roman", Times, serif;
   background-color: #000066;
   opacity: .8;
 }
